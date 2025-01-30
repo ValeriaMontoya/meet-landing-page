@@ -51,16 +51,17 @@ picture {
   color: rgb(217, 184, 255);
 }
 
+.main__image {
+  transition: transform 750ms;
+  will-change: transform;
+}
+
 @media (hover: hover) {
   .button--blue:hover {
     background-color: #71c0d4;
   }
   .button--purple:hover {
     background-color: #b18bdd;
-  }
-  .main__image {
-    transition: transform 750ms;
-    will-change: transform;
   }
   .main__image:hover {
     transform: translateY(10px);
